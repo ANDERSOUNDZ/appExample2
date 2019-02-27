@@ -1,0 +1,1 @@
+<app-productos-list-items *ngFor="let item of shoppingCartServiceService.dataProducts" [(itemProduct)]="item" (outItem)="deleteItem($event)"></app-productos-list-items>
